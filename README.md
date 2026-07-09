@@ -88,21 +88,30 @@ Appendix
 ## Git
 
 Repository klonen
-
+```bash
+# Mit HTTPS
 git clone https://github.com/stoicfist/IDPA.git
 
+# Mit SSH
+git clone git@github.com:stoicfist/IDPA.git
+```
+
 Änderungen holen
-
+```bash
 git pull
+```
 
-Änderungen speichern
+Änderungen speichern (siehe: [Conventional Commits Cheat Sheet](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)))
 
+```bash
 git add .
-git commit -m "..."
+git commit -m "<type>(scope): ..." # scope ist optional 
+```
 
 Änderungen hochladen
-
+```bash
 git push
+```
 
 ## LaTeX kompilieren
 
