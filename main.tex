@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage{babel, ngerman}
+\usepackage{graphicx}
+\usepackage{tikz}
+\graphicspath{ {./images/} }
+\usepackage[normalem]{ulem}
+\usepackage{float}
+\usepackage[
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=blue,
+  citecolor=blue
+]{hyperref}
+\renewcommand{\UrlFont}{\color{blue}\uline}
+
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+% ===================== TITELBLATT =====================
+\begin{titlepage}
+
+  \centering
+
+
+\begin{tikzpicture}[remember picture, overlay]
+  \node[anchor=north east, xshift=-1.5cm, yshift=-1.2cm]
+  at (current page.north east)
+  {\includegraphics[width=0.4\textwidth]{images/bbzbl.png}};
+\end{tikzpicture}
+
+\vspace*{1.5cm}
+
+    {\Large\textsc{Berufsmaturität}}\\[0.2cm]
+    {\large Interdisziplinäre Projektarbeit (IDPA)}\\[1cm]
+
+    \rule{0.80\textwidth}{0.5pt}\\[1.0cm]
+
+    {\Huge\bfseries
+    Zwischen Herzmedizin\\[0.25cm]
+    und Computerrevolution
+    }\\[0.8cm]
+
+    {\large
+    Zwei Lebenswege im Spiegel ihrer Zeit
+    }\\[0.9cm]
+
+    \rule{0.80\textwidth}{0.5pt}\\[0.8cm]
+
+    \begin{tabular}{@{}ll}
+        \textbf{Betreuungspersonen:} & Frau Irene Vonarb, \\
+                                     & Frau Eveline Grassi \\[6pt]
+
+
+        \textbf{Autoren:} & Peter Ngo, \\
+                          & Alex Uscata \\[6pt]
+
+        \vspace{0.5cm} \\
+        \textbf{Klasse:} & INA-23-A \\[6pt]
+        \textbf{Schule:} & BBZBL - Muttenz \\[6pt]
+        \textbf{Datum:} & \today \\
+    \end{tabular}
+
+    \vfill
+
+    \rule{0.60\textwidth}{0.4pt}\\[0.4cm]
+
+    {\small\itshape
+    Biographien erzählen nicht nur das Leben einzelner Menschen,\\
+    sondern spiegeln zugleich die Geschichte ihrer Zeit wider.
+    }
+
+\end{titlepage}
+
+
+\end{document}
