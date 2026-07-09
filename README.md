@@ -111,12 +111,17 @@ git push
 
 ## LaTeX kompilieren
 
-LuaLaTeX:
+### PDFLaTeX
 
-lualatex main
-biber main
-lualatex main
-lualatex main
+```bash
+latexmk -pdf main.tex
+```
+
+Zum Bereinigen der Hilfsdateien:
+
+```bash
+latexmk -c
+```
 
 ## Regeln
 
