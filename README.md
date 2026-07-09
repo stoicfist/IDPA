@@ -69,14 +69,14 @@ idpa-biographie/
     ├── deutsch/
     └── russisch/
 ```
-## Kapitel
+## Kapitel (In Etwa)
 
-01 Einleitung
-02 Historischer Kontext
-03 Biographie
-04 Analyse
-05 Fazit
-Appendix
+- `01_einleitung.tex`
+- `02_historischer_kontext.tex`
+- `03_biographie.tex`
+- `04_analyse.tex`
+- `05_fazit.tex`
+- `appendix.tex`
 
 ## Zusammenarbeit
 
