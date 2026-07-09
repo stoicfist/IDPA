@@ -20,6 +20,7 @@ idpa-biographie/
 ├── README.md
 ├── main.tex
 ├── references.bib
+├── config.tex
 ├── latexmkrc
 │
 ├── chapters/
