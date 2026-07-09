@@ -65,14 +65,9 @@ idpa-biographie/
 │   └── interviewauszuege/
 │
 ├── translations/
-│   ├── vietnamesisch/
-│   ├── deutsch/
-│   └── russisch/
-│
-└── build/
-    ├── main.pdf
-    ├── aux/
-    └── logs/
+    ├── vietnamesisch/
+    ├── deutsch/
+    └── russisch/
 ```
 ## Kapitel
 
