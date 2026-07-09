@@ -65,7 +65,7 @@ idpa-biographie/
 │   ├── tabellen/
 │   └── interviewauszuege/
 │
-├── translations/
+└── translations/
     ├── vietnamesisch/
     ├── deutsch/
     └── russisch/
