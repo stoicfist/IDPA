@@ -5,7 +5,7 @@
 - Alex Uscata
 
 ## Ziel
-Dieses Repository enthält die gemeinsame IDPA-Arbeit zur historischen Biografie von Dr. Ngô Xuân Sinh und Urs Hölzle.
+Dieses Repository enthält die gemeinsame IDPA-Arbeit zur historischen Biografie von Dr. Ngô Xuân Sinh und Dr. Urs Hölzle.
 
 Ziel der Arbeit ist die Rekonstruktion ihrer Lebenswege anhand von Interviews, wissenschaftlicher Literatur, Archivmaterialien und weiteren historischen Quellen.
 Die Biografien werden in ihren politischen, gesellschaftlichen und technologischen Kontext eingeordnet.
