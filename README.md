@@ -12,8 +12,8 @@ Die Biografien werden in ihren politischen, gesellschaftlichen und technologisch
 
 Der Schwerpunkt liegt auf einer wissenschaftlich nachvollziehbaren Arbeitsweise mit GitHub, LaTeX und einer strukturierten Quellenverwaltung.
 
-## Projektstruktur
-
+## Projektstruktur(In Etwa)
+```
 idpa-biographie/
 │
 ├── .gitignore
@@ -73,7 +73,7 @@ idpa-biographie/
     ├── main.pdf
     ├── aux/
     └── logs/
-
+```
 ## Kapitel
 
 01 Einleitung
