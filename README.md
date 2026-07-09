@@ -102,7 +102,7 @@ git clone git@github.com:stoicfist/IDPA.git
 git pull
 ```
 
-Änderungen speichern (siehe: [Conventional Commits Cheat Sheet](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)))
+Änderungen speichern (siehe: [Conventional Commits Cheat Sheet](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13))
 
 ```bash
 git add .
