@@ -114,6 +114,125 @@ git commit -m "<type>(scope): ..." # scope ist optional
 git push
 ```
 
+## LaTeX-Grundlagen
+
+### Kapitel einbinden
+
+Neue Kapitel werden in `main.tex` mit `\input` eingebunden.
+
+```latex
+\input{chapters/01_einleitung}
+\input{chapters/02_historischer_kontext}
+\input{chapters/03_biographie}
+\input{chapters/04_analyse}
+\input{chapters/05_fazit}
+```
+
+---
+
+### Kapitel erstellen
+
+Ein neues Kapitel beginnt beispielsweise so:
+
+```latex
+\section{Historischer Kontext}
+
+Hier beginnt der Fliesstext...
+```
+
+---
+
+### Unterkapitel
+
+```latex
+\subsection{Kindheit}
+
+Text...
+
+\subsubsection{Schulzeit}
+
+Weiterer Text...
+```
+
+---
+
+### Bilder einfügen
+
+Bilder gehören in den Ordner `images/`.
+
+```latex
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/personen/v_n.jpg}
+    \caption{Dr. Vorname Nachname}
+    \label{fig:x}
+\end{figure}
+```
+
+Auf Bilder verweisen:
+
+```latex
+Wie in Abbildung~\ref{fig:x} zu sehen ist...
+```
+
+---
+
+### Quellen zitieren (Nach APA)
+
+Literatur wird in `references.bib` eingetragen.
+
+Im Text:
+
+```latex
+\cite{xy2026}
+```
+
+Literaturverzeichnis:
+
+```latex
+\printbibliography
+```
+
+---
+
+### Fussnoten
+
+```latex
+Dies ist ein Beispiel.\footnote{Beispiel einer Fussnote.}
+```
+
+---
+
+### Listen
+
+```latex
+\begin{itemize}
+    \item Punkt 1
+    \item Punkt 2
+\end{itemize}
+```
+
+Nummeriert:
+
+```latex
+\begin{enumerate}
+    \item Erster Punkt
+    \item Zweiter Punkt
+\end{enumerate}
+```
+
+---
+
+### Tabellen
+
+```latex
+\begin{tabular}{ll}
+Name & Beruf \\
+Ngô Xuân Sinh & Arzt \\
+Urs Hölzle & Informatiker
+\end{tabular}
+```
+
 ## LaTeX kompilieren
 
 ### PDFLaTeX
