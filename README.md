@@ -94,7 +94,7 @@ Appendix
 
 Repository klonen
 
-git clone ...
+git clone https://github.com/stoicfist/IDPA.git
 
 Änderungen holen
 
