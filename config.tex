@@ -1,0 +1,113 @@
+% =====================================================================
+% IDPA – Globale Konfiguration:
+
+% Dieses File enthält alle gemeinsamen Einstellungen für das Projekt:
+% - \usepackage-Pakete
+% - Eigene Befehle und Makros
+% - Layout- und Seitenkonfiguration
+% - Hyperlinks und Farben
+% - Bibliographie-Einstellungen
+%
+% Neue Pakete und globale Konfigurationen bitte hier hinzufügen Alex :)
+% =====================================================================
+
+% Sprache und Schrift
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{lmodern}
+
+% Seitenlayout
+\usepackage[
+    a4paper,
+    margin=2.5cm
+]{geometry}
+
+% Absätze und Zeilenabstand
+\usepackage{setspace}
+\usepackage{parskip}
+\setlength{\parindent}{0pt}
+\onehalfspacing
+
+% Mathematik
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+% Bilder und Grafiken
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{{./images/}}
+
+% TikZ
+\usepackage{tikz}
+\usetikzlibrary{
+    arrows.meta,
+    positioning,
+    calc
+}
+
+% Tabellen
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{array}
+
+% Überschriften
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\Large\bfseries}
+  {\thesection}
+  {1em}
+  {}
+
+% Kopf- und Fusszeilen
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Zwischen Herzmedizin und Computerrevolution}
+\fancyhead[R]{IDPA}
+\fancyfoot[C]{Seite \thepage\ von \pageref{LastPage}}
+\setlength{\headheight}{15pt}
+
+% Farben und Links
+\usepackage[dvipsnames]{xcolor}
+\usepackage[
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=ForestGreen
+]{hyperref}
+
+\hypersetup{
+    pdftitle={Zwischen Herzmedizin und Computerrevolution},
+    pdfauthor={Peter Ngo und Alex Uscata},
+    pdfsubject={Interdisziplinäre Projektarbeit},
+    pdfkeywords={
+        Biografie,
+        Medizingeschichte,
+        Informatikgeschichte,
+        Ngô Xuân Sinh,
+        Urs Hölzle
+    },
+    pdfpagemode=UseOutlines
+}
+
+% URLs
+\usepackage[normalem]{ulem}
+\renewcommand{\UrlFont}{\color{blue}\uline}
+
+% Bessere Verlinkung von Abbildungen
+\usepackage[all]{hypcap}
+
+% Zitate und Literatur
+\usepackage[
+    backend=biber,
+    style=apa,
+    sorting=nyt,
+    language=ngerman
+]{biblatex}
+
+\addbibresource{references.bib}
